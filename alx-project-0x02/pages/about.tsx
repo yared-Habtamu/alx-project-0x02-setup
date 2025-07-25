@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/layout/Header";
 import Button from "../components/common/Button";
 // import Button from "@/components/common/Header";
-// ["@/components/layout/Header"]
+// ["@/components/layout/Header"] ["@/components/common/Button"]
 export default function About() {
   return (
     <main>

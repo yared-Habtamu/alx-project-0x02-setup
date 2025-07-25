@@ -3,7 +3,7 @@ import Header from "../components/layout/Header";
 import Card from "../components/common/Card";
 import PostModal from "../components/common/PostModal";
 // import Button from "@/components/common/Header";
-//["@/components/layout/Header"]
+//["@/components/layout/Header"] ["@/components/common/Card"]
 interface Post {
   title: string;
   content: string;
