@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "../components/layout/Header";
 import Card from "../components/common/Card";
 import PostModal from "../components/common/PostModal";
-//@/components/layout/Header
+//@/components/layout/Header"
 
 interface Post {
   title: string;
