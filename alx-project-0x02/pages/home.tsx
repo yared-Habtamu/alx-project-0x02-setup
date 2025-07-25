@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import Header from "../components/layout/Header";
 import Card from "../components/common/Card";
 import PostModal from "../components/common/PostModal";
 
-"@/components/common/Card"
 interface Post {
   title: string;
   content: string;
@@ -18,6 +18,7 @@ export default function Home() {
 
   return (
     <main>
+      <Header />
       <h1>Home Page</h1>
       <button onClick={() => setModalOpen(true)}>Add New Post</button>
       <PostModal
