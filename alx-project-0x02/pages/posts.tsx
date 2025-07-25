@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../components/layout/Header";
 import PostCard from "../components/common/PostCard";
 // import Button from "@/components/common/Header";  ["getStaticProps", "async", "await"]
+//["@/components/layout/Header"]
 interface Post {
   id: number;
   title: string;
