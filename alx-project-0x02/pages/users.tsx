@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "../components/layout/Header";
 import UserCard from "../components/common/UserCard";
-
+// import Button from "@/components/common/Header";["async", "await", "getStaticProps()"]
 interface User {
   id: number;
   name: string;
